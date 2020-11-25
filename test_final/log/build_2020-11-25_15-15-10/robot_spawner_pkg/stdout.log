@@ -1,0 +1,36 @@
+running develop
+running egg_info
+creating robot_spawner_pkg.egg-info
+writing robot_spawner_pkg.egg-info/PKG-INFO
+writing dependency_links to robot_spawner_pkg.egg-info/dependency_links.txt
+writing entry points to robot_spawner_pkg.egg-info/entry_points.txt
+writing requirements to robot_spawner_pkg.egg-info/requires.txt
+writing top-level names to robot_spawner_pkg.egg-info/top_level.txt
+writing manifest file 'robot_spawner_pkg.egg-info/SOURCES.txt'
+reading manifest file 'robot_spawner_pkg.egg-info/SOURCES.txt'
+writing manifest file 'robot_spawner_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages/site.py
+Creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages/robot-spawner-pkg.egg-link (link to .)
+Installing spawn_demo script to /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/robot_spawner_pkg
+
+Installed /home/ubuntu/EN613/test_final/build/robot_spawner_pkg
+running install_data
+creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/ament_index
+creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/ament_index/resource_index
+creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/ament_index/resource_index/packages
+copying resource/robot_spawner_pkg -> /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg
+creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/launch
+copying launch/basic_gazebo.launch.py -> /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/launch
+creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/worlds
+copying ./worlds/maze.world -> /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/worlds/
+creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/models
+creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/models/Maze_ql_1
+copying ./models/Maze_ql_1/model.srdf.xml -> /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/models/Maze_ql_1/
+copying ./models/Maze_ql_1/model.config.xml -> /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/models/Maze_ql_1/
+copying ./models/Maze_ql_1/model.sdf -> /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/models/Maze_ql_1/
+copying ./models/Maze_ql_1/model.config -> /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/models/Maze_ql_1/
+creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/models/basic_robot
+copying ./models/basic_robot/model.sdf -> /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/models/basic_robot
+copying ./models/basic_robot/model.config -> /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/models/basic_robot

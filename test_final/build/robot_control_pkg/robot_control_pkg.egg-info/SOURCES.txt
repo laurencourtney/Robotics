@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+launch/placeholder.launch.py
+resource/robot_control_pkg
+robot_control_pkg/__init__.py
+robot_control_pkg/path_planner.py
+robot_control_pkg/placeholder_control.py
+robot_control_pkg/placeholder_estimator.py
+robot_control_pkg.egg-info/PKG-INFO
+robot_control_pkg.egg-info/SOURCES.txt
+robot_control_pkg.egg-info/dependency_links.txt
+robot_control_pkg.egg-info/entry_points.txt
+robot_control_pkg.egg-info/requires.txt
+robot_control_pkg.egg-info/top_level.txt
+robot_control_pkg.egg-info/zip-safe

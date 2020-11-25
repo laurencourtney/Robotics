@@ -1,0 +1,46 @@
+running egg_info
+creating /home/ubuntu/EN613/build/assignment2/assignment2.egg-info
+writing /home/ubuntu/EN613/build/assignment2/assignment2.egg-info/PKG-INFO
+writing dependency_links to /home/ubuntu/EN613/build/assignment2/assignment2.egg-info/dependency_links.txt
+writing entry points to /home/ubuntu/EN613/build/assignment2/assignment2.egg-info/entry_points.txt
+writing requirements to /home/ubuntu/EN613/build/assignment2/assignment2.egg-info/requires.txt
+writing top-level names to /home/ubuntu/EN613/build/assignment2/assignment2.egg-info/top_level.txt
+writing manifest file '/home/ubuntu/EN613/build/assignment2/assignment2.egg-info/SOURCES.txt'
+reading manifest file '/home/ubuntu/EN613/build/assignment2/assignment2.egg-info/SOURCES.txt'
+writing manifest file '/home/ubuntu/EN613/build/assignment2/assignment2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/EN613/build/assignment2/build
+creating /home/ubuntu/EN613/build/assignment2/build/lib
+creating /home/ubuntu/EN613/build/assignment2/build/lib/assignment2
+copying assignment2/__init__.py -> /home/ubuntu/EN613/build/assignment2/build/lib/assignment2
+copying assignment2/dummy_object_detector.py -> /home/ubuntu/EN613/build/assignment2/build/lib/assignment2
+copying assignment2/assignment2.py -> /home/ubuntu/EN613/build/assignment2/build/lib/assignment2
+copying assignment2/coordinates.py -> /home/ubuntu/EN613/build/assignment2/build/lib/assignment2
+running install
+running install_lib
+creating /home/ubuntu/EN613/install/assignment2/lib/python3.8/site-packages/assignment2
+copying /home/ubuntu/EN613/build/assignment2/build/lib/assignment2/__init__.py -> /home/ubuntu/EN613/install/assignment2/lib/python3.8/site-packages/assignment2
+copying /home/ubuntu/EN613/build/assignment2/build/lib/assignment2/dummy_object_detector.py -> /home/ubuntu/EN613/install/assignment2/lib/python3.8/site-packages/assignment2
+copying /home/ubuntu/EN613/build/assignment2/build/lib/assignment2/assignment2.py -> /home/ubuntu/EN613/install/assignment2/lib/python3.8/site-packages/assignment2
+copying /home/ubuntu/EN613/build/assignment2/build/lib/assignment2/coordinates.py -> /home/ubuntu/EN613/install/assignment2/lib/python3.8/site-packages/assignment2
+byte-compiling /home/ubuntu/EN613/install/assignment2/lib/python3.8/site-packages/assignment2/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/EN613/install/assignment2/lib/python3.8/site-packages/assignment2/dummy_object_detector.py to dummy_object_detector.cpython-38.pyc
+byte-compiling /home/ubuntu/EN613/install/assignment2/lib/python3.8/site-packages/assignment2/assignment2.py to assignment2.cpython-38.pyc
+byte-compiling /home/ubuntu/EN613/install/assignment2/lib/python3.8/site-packages/assignment2/coordinates.py to coordinates.cpython-38.pyc
+running install_data
+creating /home/ubuntu/EN613/install/assignment2/share/ament_index
+creating /home/ubuntu/EN613/install/assignment2/share/ament_index/resource_index
+creating /home/ubuntu/EN613/install/assignment2/share/ament_index/resource_index/packages
+copying resource/assignment2 -> /home/ubuntu/EN613/install/assignment2/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/EN613/install/assignment2/share/assignment2
+copying launch/assignment2.launch.py -> /home/ubuntu/EN613/install/assignment2/share/assignment2
+copying launch/test.launch.py -> /home/ubuntu/EN613/install/assignment2/share/assignment2
+creating /home/ubuntu/EN613/install/assignment2/share/assignment2/launch
+copying launch/single_rrbot.urdf -> /home/ubuntu/EN613/install/assignment2/share/assignment2/launch
+running install_egg_info
+Copying /home/ubuntu/EN613/build/assignment2/assignment2.egg-info to /home/ubuntu/EN613/install/assignment2/lib/python3.8/site-packages/assignment2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing coordinates script to /home/ubuntu/EN613/install/assignment2/lib/assignment2
+Installing dummy_object_detector script to /home/ubuntu/EN613/install/assignment2/lib/assignment2
+writing list of installed files to '/home/ubuntu/EN613/build/assignment2/install.log'

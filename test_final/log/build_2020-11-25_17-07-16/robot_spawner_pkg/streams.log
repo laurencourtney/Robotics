@@ -1,0 +1,17 @@
+[7.001s] Invoking command in '/home/ubuntu/EN613/test_final/build/robot_spawner_pkg': PYTHONPATH=/home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/EN613/test_final/install/robot_spawner_pkg --editable --build-directory /home/ubuntu/EN613/test_final/build/robot_spawner_pkg/build --no-deps install_data --install-dir /home/ubuntu/EN613/test_final/install/robot_spawner_pkg
+[10.061s] running develop
+[11.004s] running egg_info
+[11.007s] writing robot_spawner_pkg.egg-info/PKG-INFO
+[11.021s] writing dependency_links to robot_spawner_pkg.egg-info/dependency_links.txt
+[11.026s] writing entry points to robot_spawner_pkg.egg-info/entry_points.txt
+[11.030s] writing requirements to robot_spawner_pkg.egg-info/requires.txt
+[11.034s] writing top-level names to robot_spawner_pkg.egg-info/top_level.txt
+[11.300s] reading manifest file 'robot_spawner_pkg.egg-info/SOURCES.txt'
+[11.424s] writing manifest file 'robot_spawner_pkg.egg-info/SOURCES.txt'
+[11.872s] running build_ext
+[11.885s] Creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages/robot-spawner-pkg.egg-link (link to .)
+[11.909s] Installing spawn_demo script to /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/robot_spawner_pkg
+[11.926s] 
+[11.936s] Installed /home/ubuntu/EN613/test_final/build/robot_spawner_pkg
+[11.943s] running install_data
+[12.187s] Invoked command in '/home/ubuntu/EN613/test_final/build/robot_spawner_pkg' returned '0': PYTHONPATH=/home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/EN613/test_final/install/robot_spawner_pkg --editable --build-directory /home/ubuntu/EN613/test_final/build/robot_spawner_pkg/build --no-deps install_data --install-dir /home/ubuntu/EN613/test_final/install/robot_spawner_pkg

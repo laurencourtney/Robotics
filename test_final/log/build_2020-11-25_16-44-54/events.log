@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.004291] (robot_control_pkg) JobQueued: {'identifier': 'robot_control_pkg', 'dependencies': OrderedDict()}
+[0.019069] (robot_spawner_pkg) JobQueued: {'identifier': 'robot_spawner_pkg', 'dependencies': OrderedDict()}
+[0.020400] (robot_control_pkg) JobStarted: {'identifier': 'robot_control_pkg'}
+[0.084129] (-) TimerEvent: {}
+[0.185579] (-) TimerEvent: {}
+[0.287235] (-) TimerEvent: {}
+[0.313526] (robot_spawner_pkg) JobStarted: {'identifier': 'robot_spawner_pkg'}
+[0.387433] (-) TimerEvent: {}
+[0.489619] (-) TimerEvent: {}
+[0.593167] (-) TimerEvent: {}
+[0.694775] (-) TimerEvent: {}
+[0.796528] (-) TimerEvent: {}
+[0.898695] (-) TimerEvent: {}
+[1.001520] (-) TimerEvent: {}
+[1.105958] (-) TimerEvent: {}
+[1.207480] (-) TimerEvent: {}
+[1.308952] (-) TimerEvent: {}
+[1.410295] (-) TimerEvent: {}
+[1.512164] (-) TimerEvent: {}
+[1.614098] (-) TimerEvent: {}
+[1.715614] (-) TimerEvent: {}
+[1.817692] (-) TimerEvent: {}
+[1.919346] (-) TimerEvent: {}
+[2.020706] (-) TimerEvent: {}
+[2.122931] (-) TimerEvent: {}
+[2.224499] (-) TimerEvent: {}
+[2.326726] (-) TimerEvent: {}
+[2.430327] (-) TimerEvent: {}
+[2.531619] (-) TimerEvent: {}
+[2.634761] (-) TimerEvent: {}
+[2.737350] (-) TimerEvent: {}
+[2.840724] (-) TimerEvent: {}
+[2.942302] (-) TimerEvent: {}
+[3.043666] (-) TimerEvent: {}
+[3.145194] (-) TimerEvent: {}
+[3.248800] (-) TimerEvent: {}
+[3.350231] (-) TimerEvent: {}
+[3.452576] (-) TimerEvent: {}
+[3.554206] (-) TimerEvent: {}
+[3.658988] (-) TimerEvent: {}
+[3.763782] (-) TimerEvent: {}
+[3.864966] (-) TimerEvent: {}
+[3.966833] (-) TimerEvent: {}
+[4.071682] (-) TimerEvent: {}
+[4.177708] (-) TimerEvent: {}
+[4.279589] (-) TimerEvent: {}
+[4.381769] (-) TimerEvent: {}
+[4.483107] (-) TimerEvent: {}
+[4.584780] (-) TimerEvent: {}
+[4.687349] (-) TimerEvent: {}
+[4.791150] (-) TimerEvent: {}
+[4.893143] (-) TimerEvent: {}
+[4.996806] (-) TimerEvent: {}
+[5.098518] (-) TimerEvent: {}
+[5.199805] (-) TimerEvent: {}
+[5.304278] (-) TimerEvent: {}
+[5.405495] (-) TimerEvent: {}
+[5.506768] (-) TimerEvent: {}
+[5.608299] (-) TimerEvent: {}
+[5.709625] (-) TimerEvent: {}
+[5.812684] (-) TimerEvent: {}
+[5.914149] (-) TimerEvent: {}
+[6.019611] (-) TimerEvent: {}
+[6.122170] (-) TimerEvent: {}
+[6.223565] (-) TimerEvent: {}
+[6.325492] (-) TimerEvent: {}
+[6.428449] (-) TimerEvent: {}
+[6.530585] (-) TimerEvent: {}
+[6.631911] (-) TimerEvent: {}
+[6.735193] (-) TimerEvent: {}
+[6.836917] (-) TimerEvent: {}
+[6.938448] (-) TimerEvent: {}
+[7.040466] (-) TimerEvent: {}
+[7.142880] (-) TimerEvent: {}
+[7.245162] (-) TimerEvent: {}
+[7.350158] (-) TimerEvent: {}
+[7.453241] (-) TimerEvent: {}
+[7.556101] (-) TimerEvent: {}
+[7.659469] (-) TimerEvent: {}
+[7.763676] (-) TimerEvent: {}
+[7.865090] (-) TimerEvent: {}
+[7.967192] (-) TimerEvent: {}
+[8.069439] (-) TimerEvent: {}
+[8.176956] (-) TimerEvent: {}
+[8.278547] (-) TimerEvent: {}
+[8.381321] (-) TimerEvent: {}
+[8.483429] (-) TimerEvent: {}
+[8.584994] (-) TimerEvent: {}
+[8.691140] (-) TimerEvent: {}
+[8.795783] (-) TimerEvent: {}
+[8.900274] (-) TimerEvent: {}
+[9.002481] (-) TimerEvent: {}
+[9.105404] (-) TimerEvent: {}
+[9.210160] (-) TimerEvent: {}
+[9.317500] (-) TimerEvent: {}
+[9.388144] (robot_control_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/ubuntu/EN613/test_final/install/robot_control_pkg', '--editable', '--build-directory', '/home/ubuntu/EN613/test_final/build/robot_control_pkg/build', '--no-deps', 'install_data', '--install-dir', '/home/ubuntu/EN613/test_final/install/robot_control_pkg'], 'cwd': '/home/ubuntu/EN613/test_final/build/robot_control_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': 'a68de8b47169', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/EN613/test_final/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/EN613/test_final/install:/home/ubuntu/EN613/final_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/EN613/test_final/install/robot_spawner_pkg:/home/ubuntu/EN613/test_final/install/robot_control_pkg:/home/ubuntu/EN613/final_ws/install/robot_spawner_pkg:/home/ubuntu/EN613/final_ws/install/robot_control_pkg:/home/ubuntu/turtlebot3_ws/install/turtlebot3_simulations:/home/ubuntu/turtlebot3_ws/install/turtlebot3_gazebo:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_fake_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'lxpanel', 'PWD': '/home/ubuntu/EN613/test_final/build/robot_control_pkg', 'TURTLEBOT3_MODEL': 'waffle_pi', 'PYTHONPATH': '/home/ubuntu/EN613/test_final/install/robot_control_pkg/lib/python3.8/site-packages:/home/ubuntu/EN613/test_final/build/robot_spawner_pkg:/home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages:/home/ubuntu/EN613/test_final/build/robot_control_pkg:/home/ubuntu/EN613/test_final/install/robot_control_pkg/lib/python3.8/site-packages:/home/ubuntu/EN613/final_ws/build/robot_spawner_pkg:/home/ubuntu/EN613/final_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:/home/ubuntu/EN613/final_ws/build/robot_control_pkg:/home/ubuntu/EN613/final_ws/install/robot_control_pkg/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_simulations:/home/ubuntu/turtlebot3_ws/install/turtlebot3_gazebo:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_fake_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk'}, 'shell': False}
+[9.418031] (-) TimerEvent: {}
+[9.521438] (-) TimerEvent: {}
+[9.625873] (-) TimerEvent: {}
+[9.706699] (robot_spawner_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/ubuntu/EN613/test_final/install/robot_spawner_pkg', '--editable', '--build-directory', '/home/ubuntu/EN613/test_final/build/robot_spawner_pkg/build', '--no-deps', 'install_data', '--install-dir', '/home/ubuntu/EN613/test_final/install/robot_spawner_pkg'], 'cwd': '/home/ubuntu/EN613/test_final/build/robot_spawner_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': 'a68de8b47169', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/EN613/test_final/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/EN613/test_final/install:/home/ubuntu/EN613/final_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/EN613/test_final/install/robot_spawner_pkg:/home/ubuntu/EN613/test_final/install/robot_control_pkg:/home/ubuntu/EN613/final_ws/install/robot_spawner_pkg:/home/ubuntu/EN613/final_ws/install/robot_control_pkg:/home/ubuntu/turtlebot3_ws/install/turtlebot3_simulations:/home/ubuntu/turtlebot3_ws/install/turtlebot3_gazebo:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_fake_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'lxpanel', 'PWD': '/home/ubuntu/EN613/test_final/build/robot_spawner_pkg', 'TURTLEBOT3_MODEL': 'waffle_pi', 'PYTHONPATH': '/home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages:/home/ubuntu/EN613/test_final/build/robot_spawner_pkg:/home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages:/home/ubuntu/EN613/test_final/build/robot_control_pkg:/home/ubuntu/EN613/test_final/install/robot_control_pkg/lib/python3.8/site-packages:/home/ubuntu/EN613/final_ws/build/robot_spawner_pkg:/home/ubuntu/EN613/final_ws/install/robot_spawner_pkg/lib/python3.8/site-packages:/home/ubuntu/EN613/final_ws/build/robot_control_pkg:/home/ubuntu/EN613/final_ws/install/robot_control_pkg/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_simulations:/home/ubuntu/turtlebot3_ws/install/turtlebot3_gazebo:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_fake_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk'}, 'shell': False}
+[9.746162] (-) TimerEvent: {}
+[9.848132] (-) TimerEvent: {}
+[9.953519] (-) TimerEvent: {}
+[10.055063] (-) TimerEvent: {}
+[10.158172] (-) TimerEvent: {}
+[10.261279] (-) TimerEvent: {}
+[10.364227] (-) TimerEvent: {}
+[10.465995] (-) TimerEvent: {}
+[10.568633] (-) TimerEvent: {}
+[10.671454] (-) TimerEvent: {}
+[10.777422] (-) TimerEvent: {}
+[10.879235] (-) TimerEvent: {}
+[10.983723] (-) TimerEvent: {}
+[11.087805] (-) TimerEvent: {}
+[11.195168] (-) TimerEvent: {}
+[11.297112] (-) TimerEvent: {}
+[11.399467] (-) TimerEvent: {}
+[11.501985] (-) TimerEvent: {}
+[11.605194] (-) TimerEvent: {}
+[11.714033] (-) TimerEvent: {}
+[11.816603] (-) TimerEvent: {}
+[11.918374] (-) TimerEvent: {}
+[12.021552] (-) TimerEvent: {}
+[12.124645] (-) TimerEvent: {}
+[12.227366] (-) TimerEvent: {}
+[12.330486] (-) TimerEvent: {}
+[12.435042] (-) TimerEvent: {}
+[12.538507] (-) TimerEvent: {}
+[12.640565] (-) TimerEvent: {}
+[12.742137] (-) TimerEvent: {}
+[12.844728] (-) TimerEvent: {}
+[12.946576] (-) TimerEvent: {}
+[13.050066] (-) TimerEvent: {}
+[13.155102] (-) TimerEvent: {}
+[13.257531] (-) TimerEvent: {}
+[13.359371] (-) TimerEvent: {}
+[13.462180] (-) TimerEvent: {}
+[13.564243] (-) TimerEvent: {}
+[13.667050] (-) TimerEvent: {}
+[13.768543] (-) TimerEvent: {}
+[13.870230] (-) TimerEvent: {}
+[13.972153] (-) TimerEvent: {}
+[14.074086] (-) TimerEvent: {}
+[14.176924] (-) TimerEvent: {}
+[14.280054] (-) TimerEvent: {}
+[14.382610] (-) TimerEvent: {}
+[14.485271] (-) TimerEvent: {}
+[14.587358] (-) TimerEvent: {}
+[14.690133] (-) TimerEvent: {}
+[14.793143] (-) TimerEvent: {}
+[14.899165] (-) TimerEvent: {}
+[15.000625] (-) TimerEvent: {}
+[15.102103] (-) TimerEvent: {}
+[15.209608] (-) TimerEvent: {}
+[15.211594] (robot_spawner_pkg) StdoutLine: {'line': b'running develop\n'}
+[15.310013] (-) TimerEvent: {}
+[15.411339] (-) TimerEvent: {}
+[15.508100] (robot_control_pkg) StdoutLine: {'line': b'running develop\n'}
+[15.511648] (-) TimerEvent: {}
+[15.613320] (-) TimerEvent: {}
+[15.715985] (-) TimerEvent: {}
+[15.818701] (-) TimerEvent: {}
+[15.954837] (-) TimerEvent: {}
+[16.058616] (-) TimerEvent: {}
+[16.161344] (-) TimerEvent: {}
+[16.263069] (-) TimerEvent: {}
+[16.366280] (-) TimerEvent: {}
+[16.469794] (-) TimerEvent: {}
+[16.574530] (-) TimerEvent: {}
+[16.677241] (-) TimerEvent: {}
+[16.779541] (-) TimerEvent: {}
+[16.882378] (-) TimerEvent: {}
+[16.983999] (-) TimerEvent: {}
+[17.085564] (-) TimerEvent: {}
+[17.187664] (-) TimerEvent: {}
+[17.291625] (-) TimerEvent: {}
+[17.394278] (-) TimerEvent: {}
+[17.496356] (-) TimerEvent: {}
+[17.599373] (-) TimerEvent: {}
+[17.700948] (-) TimerEvent: {}
+[17.802980] (-) TimerEvent: {}
+[17.837782] (robot_spawner_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[17.845726] (robot_spawner_pkg) StdoutLine: {'line': b'writing robot_spawner_pkg.egg-info/PKG-INFO\n'}
+[17.865452] (robot_spawner_pkg) StdoutLine: {'line': b'writing dependency_links to robot_spawner_pkg.egg-info/dependency_links.txt\n'}
+[17.871164] (robot_spawner_pkg) StdoutLine: {'line': b'writing entry points to robot_spawner_pkg.egg-info/entry_points.txt\n'}
+[17.878828] (robot_spawner_pkg) StdoutLine: {'line': b'writing requirements to robot_spawner_pkg.egg-info/requires.txt\n'}
+[17.886831] (robot_spawner_pkg) StdoutLine: {'line': b'writing top-level names to robot_spawner_pkg.egg-info/top_level.txt\n'}
+[17.904514] (-) TimerEvent: {}
+[18.006719] (-) TimerEvent: {}
+[18.063826] (robot_control_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[18.066590] (robot_control_pkg) StdoutLine: {'line': b'writing robot_control_pkg.egg-info/PKG-INFO\n'}
+[18.084290] (robot_control_pkg) StdoutLine: {'line': b'writing dependency_links to robot_control_pkg.egg-info/dependency_links.txt\n'}
+[18.090728] (robot_control_pkg) StdoutLine: {'line': b'writing entry points to robot_control_pkg.egg-info/entry_points.txt\n'}
+[18.098564] (robot_control_pkg) StdoutLine: {'line': b'writing requirements to robot_control_pkg.egg-info/requires.txt\n'}
+[18.105574] (robot_control_pkg) StdoutLine: {'line': b'writing top-level names to robot_control_pkg.egg-info/top_level.txt\n'}
+[18.108711] (-) TimerEvent: {}
+[18.210616] (-) TimerEvent: {}
+[18.312354] (-) TimerEvent: {}
+[18.416645] (-) TimerEvent: {}
+[18.451054] (robot_spawner_pkg) StdoutLine: {'line': b"reading manifest file 'robot_spawner_pkg.egg-info/SOURCES.txt'\n"}
+[18.517229] (-) TimerEvent: {}
+[18.584347] (robot_spawner_pkg) StdoutLine: {'line': b"writing manifest file 'robot_spawner_pkg.egg-info/SOURCES.txt'\n"}
+[18.617521] (-) TimerEvent: {}
+[18.720156] (-) TimerEvent: {}
+[18.823793] (-) TimerEvent: {}
+[18.837401] (robot_control_pkg) StdoutLine: {'line': b"reading manifest file 'robot_control_pkg.egg-info/SOURCES.txt'\n"}
+[18.924626] (-) TimerEvent: {}
+[18.996769] (robot_control_pkg) StdoutLine: {'line': b"writing manifest file 'robot_control_pkg.egg-info/SOURCES.txt'\n"}
+[19.025130] (-) TimerEvent: {}
+[19.126602] (-) TimerEvent: {}
+[19.228717] (-) TimerEvent: {}
+[19.330400] (-) TimerEvent: {}
+[19.433062] (-) TimerEvent: {}
+[19.533028] (robot_spawner_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[19.539112] (-) TimerEvent: {}
+[19.547742] (robot_spawner_pkg) StdoutLine: {'line': b'Creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages/robot-spawner-pkg.egg-link (link to .)\n'}
+[19.605086] (robot_spawner_pkg) StdoutLine: {'line': b'Installing spawn_demo script to /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/robot_spawner_pkg\n'}
+[19.626858] (robot_spawner_pkg) StdoutLine: {'line': b'\n'}
+[19.629511] (robot_spawner_pkg) StdoutLine: {'line': b'Installed /home/ubuntu/EN613/test_final/build/robot_spawner_pkg\n'}
+[19.632514] (robot_spawner_pkg) StdoutLine: {'line': b'running install_data\n'}
+[19.640027] (-) TimerEvent: {}
+[19.742009] (-) TimerEvent: {}
+[19.845453] (-) TimerEvent: {}
+[19.936288] (robot_control_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[19.945757] (-) TimerEvent: {}
+[19.965797] (robot_control_pkg) StdoutLine: {'line': b'Creating /home/ubuntu/EN613/test_final/install/robot_control_pkg/lib/python3.8/site-packages/robot-control-pkg.egg-link (link to .)\n'}
+[20.011045] (robot_control_pkg) StdoutLine: {'line': b'Installing placeholder_control script to /home/ubuntu/EN613/test_final/install/robot_control_pkg/lib/robot_control_pkg\n'}
+[20.019411] (robot_control_pkg) StdoutLine: {'line': b'Installing placeholder_estimator script to /home/ubuntu/EN613/test_final/install/robot_control_pkg/lib/robot_control_pkg\n'}
+[20.035646] (robot_control_pkg) StdoutLine: {'line': b'\n'}
+[20.038724] (robot_control_pkg) StdoutLine: {'line': b'Installed /home/ubuntu/EN613/test_final/build/robot_control_pkg\n'}
+[20.044730] (robot_control_pkg) StdoutLine: {'line': b'running install_data\n'}
+[20.051684] (-) TimerEvent: {}
+[20.157127] (-) TimerEvent: {}
+[20.250790] (robot_spawner_pkg) CommandEnded: {'returncode': 0}
+[20.257195] (-) TimerEvent: {}
+[20.358710] (-) TimerEvent: {}
+[20.460201] (-) TimerEvent: {}
+[20.562620] (-) TimerEvent: {}
+[20.673267] (-) TimerEvent: {}
+[20.755026] (robot_spawner_pkg) JobEnded: {'identifier': 'robot_spawner_pkg', 'rc': 0}
+[20.771192] (robot_control_pkg) CommandEnded: {'returncode': 0}
+[20.798431] (-) TimerEvent: {}
+[20.900107] (-) TimerEvent: {}
+[21.003086] (-) TimerEvent: {}
+[21.106337] (-) TimerEvent: {}
+[21.208139] (-) TimerEvent: {}
+[21.234699] (robot_control_pkg) JobEnded: {'identifier': 'robot_control_pkg', 'rc': 0}
+[21.256303] (-) EventReactorShutdown: {}

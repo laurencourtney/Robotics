@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: assignment3
+Version: 0.0.0
+Summary: Subscribes to cmd_vel and publishes wheel velocities
+Home-page: UNKNOWN
+Maintainer: Lauren Courtney
+Maintainer-email: lcourtn5@jhu.edu
+License: Unknown Liscense
+Description: UNKNOWN
+Platform: UNKNOWN

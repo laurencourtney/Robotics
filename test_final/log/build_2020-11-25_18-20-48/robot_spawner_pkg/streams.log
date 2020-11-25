@@ -1,0 +1,18 @@
+[6.196s] Invoking command in '/home/ubuntu/EN613/test_final/build/robot_spawner_pkg': PYTHONPATH=/home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/EN613/test_final/install/robot_spawner_pkg --editable --build-directory /home/ubuntu/EN613/test_final/build/robot_spawner_pkg/build --no-deps install_data --install-dir /home/ubuntu/EN613/test_final/install/robot_spawner_pkg
+[9.393s] running develop
+[10.340s] running egg_info
+[10.345s] writing robot_spawner_pkg.egg-info/PKG-INFO
+[10.361s] writing dependency_links to robot_spawner_pkg.egg-info/dependency_links.txt
+[10.370s] writing entry points to robot_spawner_pkg.egg-info/entry_points.txt
+[10.382s] writing requirements to robot_spawner_pkg.egg-info/requires.txt
+[10.387s] writing top-level names to robot_spawner_pkg.egg-info/top_level.txt
+[10.635s] reading manifest file 'robot_spawner_pkg.egg-info/SOURCES.txt'
+[10.771s] writing manifest file 'robot_spawner_pkg.egg-info/SOURCES.txt'
+[11.282s] running build_ext
+[11.293s] Creating /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages/robot-spawner-pkg.egg-link (link to .)
+[11.339s] Installing spawn_demo script to /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/robot_spawner_pkg
+[11.368s] 
+[11.372s] Installed /home/ubuntu/EN613/test_final/build/robot_spawner_pkg
+[11.378s] running install_data
+[11.649s] copying ./models/basic_robot/model.sdf -> /home/ubuntu/EN613/test_final/install/robot_spawner_pkg/share/robot_spawner_pkg/models/basic_robot
+[11.812s] Invoked command in '/home/ubuntu/EN613/test_final/build/robot_spawner_pkg' returned '0': PYTHONPATH=/home/ubuntu/EN613/test_final/install/robot_spawner_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/EN613/test_final/install/robot_spawner_pkg --editable --build-directory /home/ubuntu/EN613/test_final/build/robot_spawner_pkg/build --no-deps install_data --install-dir /home/ubuntu/EN613/test_final/install/robot_spawner_pkg

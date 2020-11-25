@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.001009] (assignment3) JobQueued: {'identifier': 'assignment3', 'dependencies': OrderedDict()}
+[0.002606] (assignment3) JobStarted: {'identifier': 'assignment3'}
+[0.130429] (-) TimerEvent: {}
+[0.236765] (-) TimerEvent: {}
+[0.344180] (-) TimerEvent: {}
+[0.445319] (-) TimerEvent: {}
+[0.546408] (-) TimerEvent: {}
+[0.648046] (-) TimerEvent: {}
+[0.749631] (-) TimerEvent: {}
+[0.850801] (-) TimerEvent: {}
+[0.952175] (-) TimerEvent: {}
+[1.054160] (-) TimerEvent: {}
+[1.094363] (assignment3) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/ubuntu/EN613/class3_ws/build/assignment3', 'build', '--build-base', '/home/ubuntu/EN613/class3_ws/build/assignment3/build', 'install', '--prefix', '/home/ubuntu/EN613/class3_ws/install/assignment3', '--record', '/home/ubuntu/EN613/class3_ws/build/assignment3/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/EN613/class3_ws/src/assignment3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'x', 'HOSTNAME': 'a68de8b47169', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/EN613/class3_ws/src/assignment3/assignment3', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/EN613/class3_ws/install:/home/ubuntu/turtlebot3_ws/install:/home/ubuntu/EN613/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/ubuntu/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/EN613/class3_ws/install/assignment3:/home/ubuntu/EN613/install/assignment2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_simulations:/home/ubuntu/turtlebot3_ws/install/turtlebot3_gazebo:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_fake_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'lxpanel', 'PWD': '/home/ubuntu/EN613/class3_ws/build/assignment3', 'TURTLEBOT3_MODEL': 'waffle_pi', 'PYTHONPATH': '/home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages:/home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages:/home/ubuntu/EN613/install/assignment2/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3_simulations:/home/ubuntu/turtlebot3_ws/install/turtlebot3_gazebo:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_navigation2:/home/ubuntu/turtlebot3_ws/install/turtlebot3_fake_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_msgs:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/turtlebot3_cartographer:/home/ubuntu/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/ubuntu/turtlebot3_ws/install/dynamixel_sdk'}, 'shell': False}
+[1.154677] (-) TimerEvent: {}
+[1.256301] (-) TimerEvent: {}
+[1.357258] (-) TimerEvent: {}
+[1.458081] (-) TimerEvent: {}
+[1.559953] (-) TimerEvent: {}
+[1.661222] (-) TimerEvent: {}
+[1.762387] (-) TimerEvent: {}
+[1.831346] (assignment3) StdoutLine: {'line': b'running egg_info\n'}
+[1.844091] (assignment3) StdoutLine: {'line': b'writing /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/PKG-INFO\n'}
+[1.862923] (-) TimerEvent: {}
+[1.867410] (assignment3) StdoutLine: {'line': b'writing dependency_links to /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/dependency_links.txt\n'}
+[1.877992] (assignment3) StdoutLine: {'line': b'writing entry points to /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/entry_points.txt\n'}
+[1.884199] (assignment3) StdoutLine: {'line': b'writing requirements to /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/requires.txt\n'}
+[1.889815] (assignment3) StdoutLine: {'line': b'writing top-level names to /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/top_level.txt\n'}
+[1.963170] (-) TimerEvent: {}
+[2.008973] (assignment3) StdoutLine: {'line': b"reading manifest file '/home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/SOURCES.txt'\n"}
+[2.063440] (-) TimerEvent: {}
+[2.085039] (assignment3) StdoutLine: {'line': b"writing manifest file '/home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/SOURCES.txt'\n"}
+[2.091736] (assignment3) StdoutLine: {'line': b'running build\n'}
+[2.104076] (assignment3) StdoutLine: {'line': b'running build_py\n'}
+[2.112263] (assignment3) StdoutLine: {'line': b'copying assignment3/mecanum_sim.py -> /home/ubuntu/EN613/class3_ws/build/assignment3/build/lib/assignment3\n'}
+[2.158818] (assignment3) StdoutLine: {'line': b'running install\n'}
+[2.163801] (-) TimerEvent: {}
+[2.165611] (assignment3) StdoutLine: {'line': b'running install_lib\n'}
+[2.191728] (assignment3) StdoutLine: {'line': b'copying /home/ubuntu/EN613/class3_ws/build/assignment3/build/lib/assignment3/mecanum_sim.py -> /home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages/assignment3\n'}
+[2.264123] (-) TimerEvent: {}
+[2.272714] (assignment3) StdoutLine: {'line': b'byte-compiling /home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages/assignment3/mecanum_sim.py to mecanum_sim.cpython-38.pyc\n'}
+[2.283528] (assignment3) StderrLine: {'line': b'  File "/home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages/assignment3/mecanum_sim.py", line 64\n'}
+[2.286030] (assignment3) StderrLine: {'line': b'    msg_fr = Twist()\n'}
+[2.288351] (assignment3) StderrLine: {'line': b'    ^\n'}
+[2.290813] (assignment3) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[2.293186] (assignment3) StderrLine: {'line': b'\n'}
+[2.305308] (assignment3) StdoutLine: {'line': b'running install_data\n'}
+[2.324078] (assignment3) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.338157] (assignment3) StdoutLine: {'line': b"removing '/home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages/assignment3-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.364617] (-) TimerEvent: {}
+[2.370127] (assignment3) StdoutLine: {'line': b'Copying /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info to /home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages/assignment3-0.0.0-py3.8.egg-info\n'}
+[2.464901] (-) TimerEvent: {}
+[2.566005] (-) TimerEvent: {}
+[2.581528] (assignment3) StdoutLine: {'line': b'running install_scripts\n'}
+[2.650416] (assignment3) StdoutLine: {'line': b'Installing mecanum_sim script to /home/ubuntu/EN613/class3_ws/install/assignment3/lib/assignment3\n'}
+[2.663131] (assignment3) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/EN613/class3_ws/build/assignment3/install.log'\n"}
+[2.666356] (-) TimerEvent: {}
+[2.710931] (assignment3) CommandEnded: {'returncode': 0}
+[2.766795] (-) TimerEvent: {}
+[2.868156] (-) TimerEvent: {}
+[2.969872] (-) TimerEvent: {}
+[3.006480] (assignment3) JobEnded: {'identifier': 'assignment3', 'rc': 0}
+[3.022840] (-) EventReactorShutdown: {}

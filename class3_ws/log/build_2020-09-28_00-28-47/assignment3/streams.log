@@ -1,0 +1,27 @@
+[1.040s] Invoking command in '/home/ubuntu/EN613/class3_ws/src/assignment3': PYTHONPATH=/home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/EN613/class3_ws/build/assignment3 build --build-base /home/ubuntu/EN613/class3_ws/build/assignment3/build install --prefix /home/ubuntu/EN613/class3_ws/install/assignment3 --record /home/ubuntu/EN613/class3_ws/build/assignment3/install.log --single-version-externally-managed
+[1.908s] running egg_info
+[1.914s] writing /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/PKG-INFO
+[1.944s] writing dependency_links to /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/dependency_links.txt
+[1.958s] writing entry points to /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/entry_points.txt
+[1.972s] writing requirements to /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/requires.txt
+[1.980s] writing top-level names to /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/top_level.txt
+[2.157s] reading manifest file '/home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/SOURCES.txt'
+[2.257s] writing manifest file '/home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info/SOURCES.txt'
+[2.274s] running build
+[2.277s] running build_py
+[2.287s] copying assignment3/mecanum_sim.py -> /home/ubuntu/EN613/class3_ws/build/assignment3/build/lib/assignment3
+[2.319s] copying assignment3/assignment3.py -> /home/ubuntu/EN613/class3_ws/build/assignment3/build/lib/assignment3
+[2.333s] running install
+[2.352s] running install_lib
+[2.379s] copying /home/ubuntu/EN613/class3_ws/build/assignment3/build/lib/assignment3/mecanum_sim.py -> /home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages/assignment3
+[2.414s] copying /home/ubuntu/EN613/class3_ws/build/assignment3/build/lib/assignment3/assignment3.py -> /home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages/assignment3
+[2.443s] byte-compiling /home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages/assignment3/mecanum_sim.py to mecanum_sim.cpython-38.pyc
+[2.471s] byte-compiling /home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages/assignment3/assignment3.py to assignment3.cpython-38.pyc
+[2.484s] running install_data
+[2.496s] running install_egg_info
+[2.504s] removing '/home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages/assignment3-0.0.0-py3.8.egg-info' (and everything under it)
+[2.519s] Copying /home/ubuntu/EN613/class3_ws/build/assignment3/assignment3.egg-info to /home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages/assignment3-0.0.0-py3.8.egg-info
+[2.616s] running install_scripts
+[2.681s] Installing mecanum_sim script to /home/ubuntu/EN613/class3_ws/install/assignment3/lib/assignment3
+[2.694s] writing list of installed files to '/home/ubuntu/EN613/class3_ws/build/assignment3/install.log'
+[2.754s] Invoked command in '/home/ubuntu/EN613/class3_ws/src/assignment3' returned '0': PYTHONPATH=/home/ubuntu/EN613/class3_ws/install/assignment3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/EN613/class3_ws/build/assignment3 build --build-base /home/ubuntu/EN613/class3_ws/build/assignment3/build install --prefix /home/ubuntu/EN613/class3_ws/install/assignment3 --record /home/ubuntu/EN613/class3_ws/build/assignment3/install.log --single-version-externally-managed

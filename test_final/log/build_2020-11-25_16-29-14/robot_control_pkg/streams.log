@@ -1,0 +1,18 @@
+[6.875s] Invoking command in '/home/ubuntu/EN613/test_final/build/robot_control_pkg': PYTHONPATH=/home/ubuntu/EN613/test_final/install/robot_control_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/EN613/test_final/install/robot_control_pkg --editable --build-directory /home/ubuntu/EN613/test_final/build/robot_control_pkg/build --no-deps install_data --install-dir /home/ubuntu/EN613/test_final/install/robot_control_pkg
+[10.157s] running develop
+[11.171s] running egg_info
+[11.175s] writing robot_control_pkg.egg-info/PKG-INFO
+[11.192s] writing dependency_links to robot_control_pkg.egg-info/dependency_links.txt
+[11.200s] writing entry points to robot_control_pkg.egg-info/entry_points.txt
+[11.207s] writing requirements to robot_control_pkg.egg-info/requires.txt
+[11.212s] writing top-level names to robot_control_pkg.egg-info/top_level.txt
+[11.426s] reading manifest file 'robot_control_pkg.egg-info/SOURCES.txt'
+[11.556s] writing manifest file 'robot_control_pkg.egg-info/SOURCES.txt'
+[11.955s] running build_ext
+[11.963s] Creating /home/ubuntu/EN613/test_final/install/robot_control_pkg/lib/python3.8/site-packages/robot-control-pkg.egg-link (link to .)
+[11.994s] Installing placeholder_control script to /home/ubuntu/EN613/test_final/install/robot_control_pkg/lib/robot_control_pkg
+[12.001s] Installing placeholder_estimator script to /home/ubuntu/EN613/test_final/install/robot_control_pkg/lib/robot_control_pkg
+[12.015s] 
+[12.017s] Installed /home/ubuntu/EN613/test_final/build/robot_control_pkg
+[12.020s] running install_data
+[12.152s] Invoked command in '/home/ubuntu/EN613/test_final/build/robot_control_pkg' returned '0': PYTHONPATH=/home/ubuntu/EN613/test_final/install/robot_control_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/EN613/test_final/install/robot_control_pkg --editable --build-directory /home/ubuntu/EN613/test_final/build/robot_control_pkg/build --no-deps install_data --install-dir /home/ubuntu/EN613/test_final/install/robot_control_pkg

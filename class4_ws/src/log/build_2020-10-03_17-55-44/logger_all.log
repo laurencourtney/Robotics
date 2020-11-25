@@ -1,0 +1,197 @@
+[0.366s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'assignment4']
+[0.367s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0a6047f9d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['assignment4'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0a6047f9d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0a6047ff40>)
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.455s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/EN613/class4_ws/src'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extension 'ros'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extensions ['cmake', 'python']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extension 'python'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX) by extension 'python_setup_py'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extension 'ros'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extensions ['cmake', 'python']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extension 'cmake'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extension 'python'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extensions ['python_setup_py']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4) by extension 'python_setup_py'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extension 'ros'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extensions ['cmake', 'python']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extension 'cmake'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extension 'python'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extensions ['python_setup_py']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/assignment4) by extension 'python_setup_py'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extension 'ros'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extensions ['cmake', 'python']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extension 'cmake'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extension 'python'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extensions ['python_setup_py']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/launch) by extension 'python_setup_py'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extension 'ignore_ament_install'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extensions ['colcon_pkg']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extensions ['colcon_meta']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extension 'ros'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extension 'python'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/resource) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extension 'ros'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extensions ['cmake', 'python']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extensions ['python_setup_py']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(__MACOSX/assigment4/test) by extension 'python_setup_py'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(assigment4) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(assigment4) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(assigment4) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(assigment4) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(assigment4) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(assigment4) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(assigment4) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(assigment4) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(assigment4) by extension 'ros'
+[0.675s] DEBUG:colcon.colcon_core.package_identification:Package 'assigment4' with type 'ros.ament_python' and name 'assignment4'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.723s] Level 5:colcon.colcon_core.verb:set package 'assignment4' build argument 'cmake_args' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'assignment4' build argument 'cmake_target' from command line to 'None'
+[0.724s] Level 5:colcon.colcon_core.verb:set package 'assignment4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'assignment4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'assignment4' build argument 'cmake_clean_first' from command line to 'False'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'assignment4' build argument 'cmake_force_configure' from command line to 'False'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'assignment4' build argument 'ament_cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'assignment4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'assignment4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.729s] DEBUG:colcon.colcon_core.verb:Building package 'assignment4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/EN613/class4_ws/src/build/assignment4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/EN613/class4_ws/src/install/assignment4', 'merge_install': False, 'path': '/home/ubuntu/EN613/class4_ws/src/assigment4', 'symlink_install': False, 'test_result_base': None}
+[0.731s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.736s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.737s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/EN613/class4_ws/src/assigment4' with build type 'ament_python'
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment4', 'ament_prefix_path')
+[0.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/assignment4/hook/ament_prefix_path.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/assignment4/hook/ament_prefix_path.dsv'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/assignment4/hook/ament_prefix_path.sh'
+[0.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.831s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/ubuntu/EN613/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.843s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/EN613/install/assignment2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.907s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.830s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/EN613/class4_ws/src/assigment4'
+[1.834s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.877s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/EN613/class4_ws/src/assigment4': PYTHONPATH=/home/ubuntu/EN613/class4_ws/src/install/assignment4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/EN613/class4_ws/src/build/assignment4 build --build-base /home/ubuntu/EN613/class4_ws/src/build/assignment4/build install --prefix /home/ubuntu/EN613/class4_ws/src/install/assignment4 --record /home/ubuntu/EN613/class4_ws/src/build/assignment4/install.log --single-version-externally-managed
+[5.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/EN613/class4_ws/src/assigment4' returned '0': PYTHONPATH=/home/ubuntu/EN613/class4_ws/src/install/assignment4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/EN613/class4_ws/src/build/assignment4 build --build-base /home/ubuntu/EN613/class4_ws/src/build/assignment4/build install --prefix /home/ubuntu/EN613/class4_ws/src/install/assignment4 --record /home/ubuntu/EN613/class4_ws/src/build/assignment4/install.log --single-version-externally-managed
+[5.049s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/EN613/class4_ws/src/install/assignment4' for CMake module files
+[5.067s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/EN613/class4_ws/src/install/assignment4' for CMake config files
+[5.111s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/EN613/class4_ws/src/install/assignment4/lib'
+[5.113s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/EN613/class4_ws/src/install/assignment4/bin'
+[5.114s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/EN613/class4_ws/src/install/assignment4/lib/pkgconfig/assignment4.pc'
+[5.115s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/EN613/class4_ws/src/install/assignment4/lib/python3.8/site-packages'
+[5.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment4', 'pythonpath')
+[5.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/assignment4/hook/pythonpath.ps1'
+[5.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/assignment4/hook/pythonpath.dsv'
+[5.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/assignment4/hook/pythonpath.sh'
+[5.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assignment4)
+[5.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/assignment4/package.ps1'
+[5.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/assignment4/package.dsv'
+[5.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/assignment4/package.sh'
+[5.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/assignment4/package.bash'
+[5.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/assignment4/package.zsh'
+[5.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/EN613/class4_ws/src/install/assignment4/share/colcon-core/packages/assignment4)
+[5.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.251s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.284s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.286s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.305s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.306s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.309s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/EN613/class4_ws/src/install/local_setup.ps1'
+[5.344s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/EN613/class4_ws/src/install/_local_setup_util_ps1.py'
+[5.368s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/EN613/class4_ws/src/install/setup.ps1'
+[5.393s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/EN613/class4_ws/src/install/local_setup.sh'
+[5.399s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/EN613/class4_ws/src/install/_local_setup_util_sh.py'
+[5.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/EN613/class4_ws/src/install/setup.sh'
+[5.436s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/EN613/class4_ws/src/install/local_setup.bash'
+[5.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/EN613/class4_ws/src/install/setup.bash'
+[5.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/EN613/class4_ws/src/install/local_setup.zsh'
+[5.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/EN613/class4_ws/src/install/setup.zsh'

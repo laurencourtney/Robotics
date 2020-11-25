@@ -1,0 +1,24 @@
+[2.137s] Invoking command in '/home/ubuntu/EN613/class4_ws/src/assigment4': PYTHONPATH=/home/ubuntu/EN613/class4_ws/src/install/assignment4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/EN613/class4_ws/src/build/assignment4 build --build-base /home/ubuntu/EN613/class4_ws/src/build/assignment4/build install --prefix /home/ubuntu/EN613/class4_ws/src/install/assignment4 --record /home/ubuntu/EN613/class4_ws/src/build/assignment4/install.log --single-version-externally-managed
+[3.461s] running egg_info
+[3.473s] writing /home/ubuntu/EN613/class4_ws/src/build/assignment4/assignment4.egg-info/PKG-INFO
+[3.491s] writing dependency_links to /home/ubuntu/EN613/class4_ws/src/build/assignment4/assignment4.egg-info/dependency_links.txt
+[3.497s] writing entry points to /home/ubuntu/EN613/class4_ws/src/build/assignment4/assignment4.egg-info/entry_points.txt
+[3.505s] writing requirements to /home/ubuntu/EN613/class4_ws/src/build/assignment4/assignment4.egg-info/requires.txt
+[3.510s] writing top-level names to /home/ubuntu/EN613/class4_ws/src/build/assignment4/assignment4.egg-info/top_level.txt
+[3.684s] reading manifest file '/home/ubuntu/EN613/class4_ws/src/build/assignment4/assignment4.egg-info/SOURCES.txt'
+[3.776s] writing manifest file '/home/ubuntu/EN613/class4_ws/src/build/assignment4/assignment4.egg-info/SOURCES.txt'
+[3.792s] running build
+[3.794s] running build_py
+[3.805s] copying assignment4/assignment4.py -> /home/ubuntu/EN613/class4_ws/src/build/assignment4/build/lib/assignment4
+[3.851s] running install
+[3.865s] running install_lib
+[3.915s] copying /home/ubuntu/EN613/class4_ws/src/build/assignment4/build/lib/assignment4/assignment4.py -> /home/ubuntu/EN613/class4_ws/src/install/assignment4/lib/python3.8/site-packages/assignment4
+[3.988s] byte-compiling /home/ubuntu/EN613/class4_ws/src/install/assignment4/lib/python3.8/site-packages/assignment4/assignment4.py to assignment4.cpython-38.pyc
+[4.020s] running install_data
+[4.080s] running install_egg_info
+[4.106s] removing '/home/ubuntu/EN613/class4_ws/src/install/assignment4/lib/python3.8/site-packages/assignment4-0.0.0-py3.8.egg-info' (and everything under it)
+[4.145s] Copying /home/ubuntu/EN613/class4_ws/src/build/assignment4/assignment4.egg-info to /home/ubuntu/EN613/class4_ws/src/install/assignment4/lib/python3.8/site-packages/assignment4-0.0.0-py3.8.egg-info
+[4.353s] running install_scripts
+[4.455s] Installing joint_driver script to /home/ubuntu/EN613/class4_ws/src/install/assignment4/lib/assignment4
+[4.498s] writing list of installed files to '/home/ubuntu/EN613/class4_ws/src/build/assignment4/install.log'
+[4.557s] Invoked command in '/home/ubuntu/EN613/class4_ws/src/assigment4' returned '0': PYTHONPATH=/home/ubuntu/EN613/class4_ws/src/install/assignment4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/ubuntu/EN613/class4_ws/src/build/assignment4 build --build-base /home/ubuntu/EN613/class4_ws/src/build/assignment4/build install --prefix /home/ubuntu/EN613/class4_ws/src/install/assignment4 --record /home/ubuntu/EN613/class4_ws/src/build/assignment4/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+[console_scripts]
+mecanum_sim = assignment3.mecanum_sim:main
+

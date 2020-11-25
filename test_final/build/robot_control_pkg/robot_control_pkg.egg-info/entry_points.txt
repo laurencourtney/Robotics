@@ -1,0 +1,4 @@
+[console_scripts]
+path_planner = robot_control_pkg.path_planner:main
+placeholder_estimator = robot_control_pkg.placeholder_estimator:main
+
