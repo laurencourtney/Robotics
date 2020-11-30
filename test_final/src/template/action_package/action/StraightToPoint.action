@@ -1,0 +1,8 @@
+#Goal
+float32[3] dest
+---
+#Result
+float32[3] final
+---
+#Feedback
+float32[3] current_location
