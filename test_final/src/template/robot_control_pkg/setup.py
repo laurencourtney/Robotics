@@ -25,7 +25,9 @@ setup(
         'console_scripts': [
             #'placeholder_control = robot_control_pkg.placeholder_control:main',
             'placeholder_estimator = robot_control_pkg.placeholder_estimator:main',
-            'path_planner = robot_control_pkg.path_planner:main'
+            #'path_planner = robot_control_pkg.path_planner:main',
+            'straight_to_point_action_server = robot_control_pkg.straight_to_point_action_server:main',
+            'circumnavigate_action_server = robot_control_pkg.circumnavigate_action_server:main'
             ],
     },
 )
