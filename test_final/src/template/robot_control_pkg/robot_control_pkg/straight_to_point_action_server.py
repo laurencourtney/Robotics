@@ -30,6 +30,15 @@ class StraightToPointActionServer(Node):
             self.odom_callback, 
             10)
         
+
+        #subscribe to the laser scan messages
+        self.scan_subscription = self.create_subscription(
+            LaserScan,
+            '/en613/scan',
+            self.scan_callback,
+            QoSProfile(depth=10, reliability=ReliabilityPolicy.BEST_EFFORT)
+            )
+
         self.publisher_ = self.create_publisher(Twist, '/en613/cmd_vel', 1)
 
     def odom_callback(self, msg) :
@@ -41,7 +50,12 @@ class StraightToPointActionServer(Node):
 
         current_loc = [x,y,yaw]
 
+    def scan_callback(self, msg) :
+        global min_dist
+        min_dist = min(msg.ranges)
+    
     def travel_straight_to_point(self, goal, loc) :
+        global min_dist
         x_dist = goal[0] - loc[0]
         y_dist = goal[1] - loc[1]
         self.get_logger().info("distance from goal: x - {}, y - {}".format(x_dist, y_dist))
@@ -49,6 +63,15 @@ class StraightToPointActionServer(Node):
 
         vel = Twist()
         if (total_dist >= 0.1) : #close enough
+            #check if we are too close to an obstacle
+            self.get_logger().info("minimum obs distance {}".format(min_dist))
+            if min_dist <= 0.1 :
+                self.get_logger().info("Hit an obstacle")
+                vel.linear.x = 0.0
+                vel.angular.z = 0.0
+                self.publisher_.publish(vel)
+                return 1
+
             angle_to_point = np.arctan2(y_dist, x_dist)
             yaw_dist = angle_to_point - loc[2]
             if yaw_dist > 0.1 :
