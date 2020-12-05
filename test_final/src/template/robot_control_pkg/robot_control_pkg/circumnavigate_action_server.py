@@ -61,12 +61,13 @@ class CircumnavigateActionServer(Node):
         reached = 0
         closest = position
         while(not reached) :
-            reached, closest = self.circumnavigate_obstacle(goal_handle.request.ending_point, goal_handle.request.goal_point, closest)
+            reached, closest, current = self.circumnavigate_obstacle(goal_handle.request.ending_point, goal_handle.request.goal_point, closest)
 
         goal_handle.succeed()
 
         result = Circumnavigate.Result()
         result.closest_point = closest
+        result.current_point = current
         return result
 
     def circumnavigate_obstacle(self, ending_point, goal_point, current_closest):
@@ -122,16 +123,16 @@ class CircumnavigateActionServer(Node):
 
         #this will determine if have finished circumnavigation
         dist_from_end = euclidean_distance(current_pose, ending_point)
-        if ((dist_from_end < .2) and (count > 30)):
+        if ((dist_from_end < .2) and (count > 100)):
             self.get_logger().info("Current position: ({},{}), ending point: ({},{})".format(current_pose[0], current_pose[1], ending_point[0], ending_point[1])),
             self.get_logger().info("Reached the ending point: closest [{}, {}]".format(current_closest[0], current_closest[1]))
             msg = Twist()
             self.publisher_.publish(msg) #publish an empty message to stop the robot
-            return 1, current_closest
+            return 1, current_closest, current_pose
 
         else :
             count += 1
-            return 0, current_closest
+            return 0, current_closest, current_pose
 
 
     def publish_cmd(self, state):

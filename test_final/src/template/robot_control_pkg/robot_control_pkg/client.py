@@ -4,6 +4,7 @@ from rclpy.action import ActionClient
 import sys
 from action_package.action import StraightToPoint
 from action_package.action import Circumnavigate
+import numpy as np
 
 class BugOne(Node) :
     def __init__(self):
@@ -19,26 +20,20 @@ class BugOne(Node) :
         self._action_client_stp.wait_for_server()
         self._send_goal_future = self._action_client_stp.send_goal_async(goal_msg)
         
-        #self._send_goal_future.add_done_callback(self.goal_response_callback)
         rclpy.spin_until_future_complete(self, self._send_goal_future)
-        #def goal_response_callback(self, future):
         goal_handle = self._send_goal_future.result()
 
         if not goal_handle.accepted:
-            self.get_logger().info("Goal rejected.")
+            self.get_logger().info("Stp Goal rejected.")
             return
 
-        self.get_logger().info("Goal accepted.")
+        self.get_logger().info("Stp Goal accepted.")
 
         self._get_result_future = goal_handle.get_result_async()
         rclpy.spin_until_future_complete(self, self._get_result_future)
 
-        #self._get_result_future.add_done_callback(self.get_result_callback)
-
-        #def get_result_callback(self, future):
-        #global result
         result = self._get_result_future.result().result
-        self.get_logger().info("Result retrieved.")
+        self.get_logger().info("Stp Result retrieved.")
         return result
 
     def send_goal_cnvg(self, end, goal):
@@ -46,10 +41,29 @@ class BugOne(Node) :
         goal_msg.ending_point = end
         goal_msg.goal_point = goal
 
-        self._action_client_cvng.wait_for_server()
+        self._action_client_cnvg.wait_for_server()
         self._send_goal_future = self._action_client_cnvg.send_goal_async(goal_msg)
     
-        self._send_goal_future.add_done_callback(self.goal_response_callback)
+        rclpy.spin_until_future_complete(self, self._send_goal_future)
+        goal_handle = self._send_goal_future.result()
+
+        if not goal_handle.accepted:
+            self.get_logger().info("Cnvg Goal rejected.")
+            return
+
+        self.get_logger().info("Cnvg Goal accepted.")
+
+        self._get_result_future = goal_handle.get_result_async()
+        rclpy.spin_until_future_complete(self, self._get_result_future)
+
+        result = self._get_result_future.result().result
+        self.get_logger().info("Cnvg Result retrieved.")
+        return result
+
+def euclidean_distance(loc, goal) :
+    xdiff = goal[0] - loc[0]
+    ydiff = goal[1] - loc[1]
+    return np.sqrt(xdiff * xdiff + ydiff * ydiff)
 
 def main(args=None) :
     #global result
@@ -58,19 +72,27 @@ def main(args=None) :
     #set up our node
     client = BugOne()
     
+    diff = 10
+    goal = [-1.0, -1.0, 0.0]
     #first we will try to go straight to the point
-    
-    result = client.send_goal_stp([-1.0,-1.0,0.0])
-    print(result)
-    new_loc = client.send_goal_stp([0.0,3.0,0.0])
-    #rclpy.spin_until_future_complete(client, client._get_result_future)
-    #client.get_logger().info("Result: {}".format(result))
-    #action_client = CircumnavigateActionClient()
-
-    #action_client.send_goal([3.216898, -.311153064, 0.0], [4.0, 0.0, 0.0])
-
-    #rclpy.spin(action_client)
-
+    while(diff > .2) :#check what we've been setting this to
+        stp_result = client.send_goal_stp(goal)
+        current = stp_result.final
+        diff = euclidean_distance(current, goal)
+        if diff < .2 :
+            break #probably a better way to do this
+        #we aren't at the obstacle, so we should try to circumnavigate the obstacle starting from our current loc
+        cnvg_full_result = client.send_goal_cnvg([float(i) for i in current], goal)
+        #we should probably check if we made it to the goal here and didn't reach the end - check how cnvg handles
+        closest_point = cnvg_full_result.closest_point
+        current = cnvg_full_result.current_point
+        diff = euclidean_distance(current, goal)
+        if diff < .2 :
+            break #means we reached the point while circumnavigating
+        #go around the obstacle until you reach the closest point
+        cnvg_partial_result = client.send_goal_cnvg([float(i) for i in closest_point], goal)
+        #now we will loop again and try to go straight to that point, and if we hit another obstacle we will do this again
+    print("Finished execution and reached point.")
 
 if __name__ == '__main__' :
     main()
