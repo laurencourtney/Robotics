@@ -141,21 +141,23 @@ class CircumnavigateActionServer(Node):
         #the command we publish will depend on the state
         if state == 0 : #turn right
             self.get_logger().info("state 0 - turn right")
+            msg = Twist()
             msg.angular.z = -0.02
         
         if state == 1: #we're against the wall, move forward
             self.get_logger().info("state 1 - move forward along the wall")
-            msg.linear.x = 0.01#worked with 0.01
+            msg = Twist()
+            msg.linear.x = 0.05
         
         if state == 2: #turn left and move a little to find the wall
             self.get_logger().info("state 2 - turn and move")
+            msg = Twist()
             msg.linear.x = 0.01
             msg.angular.z = 0.02
 
         self.publisher_.publish(msg)
-
-        sleep(2)
-       
+        
+        sleep(2) 
 
 def euclidean_distance(starting_loc, goal_loc) :
     x_dist = goal_loc[0] - starting_loc[0]

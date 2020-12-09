@@ -58,11 +58,11 @@ class StraightToPointActionServer(Node):
         global min_dist
         x_dist = goal[0] - loc[0]
         y_dist = goal[1] - loc[1]
-        self.get_logger().info("distance from goal: x - {}, y - {}".format(x_dist, y_dist))
         total_dist = np.sqrt(x_dist * x_dist + y_dist * y_dist)
+        self.get_logger().info("distance from goal: x - {}, y - {}, total = {}".format(x_dist, y_dist, total_dist))
 
         vel = Twist()
-        if (total_dist >= 0.1) : #close enough
+        if (total_dist >= 0.3) : #close enough
             #check if we are too close to an obstacle
             self.get_logger().info("minimum obs distance {}".format(min_dist))
             if min_dist <= 0.1 :
@@ -82,7 +82,7 @@ class StraightToPointActionServer(Node):
                 #turn right
                 self.get_logger().info("Turning right to move to point current yaw {} angle {}".format(loc[2], angle_to_point))
                 vel.angular.z = -0.05 #slowly start turning to try to get to the right angle
-                vel.linear.x = 0.0
+                vel.linear.x = 0.0 
             else :
                 self.get_logger().info("Moving to point")
                 vel.angular.z = 0.0

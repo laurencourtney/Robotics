@@ -1,19 +1,40 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient
+from geometry_msgs.msg import Pose
 import sys
 from action_package.action import StraightToPoint
 from action_package.action import Circumnavigate
 import numpy as np
 
+class GoalSubscriber(Node) :
+    def __init__(self):
+        super().__init__('GoalSubscriber')
+
+        self.subscription = self.create_subscription(
+                    Pose,
+                    '/en613/goal',
+                    self.goal_callback,
+                    10)
+    
+    def goal_callback(self, msg) :
+        global main_goal
+        x = msg.position.x
+        y = msg.position.y
+        z = msg.position.z
+        main_goal = [x,y,z]
+        self.get_logger().info('Goal is {}'.format(main_goal))
+
+
 class BugOne(Node) :
     def __init__(self):
         super().__init__('BugOne')
 
+        #be a client to the two action servers
         self._action_client_stp = ActionClient(self, StraightToPoint, 'straight_to_point')
         self._action_client_cnvg = ActionClient(self, Circumnavigate, 'circumnavigate')
-
-    def send_goal_stp(self, dest):
+        
+    def send_goal_stp(self, dest) :
         goal_msg = StraightToPoint.Goal()
         goal_msg.dest = dest
 
@@ -66,31 +87,34 @@ def euclidean_distance(loc, goal) :
     return np.sqrt(xdiff * xdiff + ydiff * ydiff)
 
 def main(args=None) :
-    #global result
+    global main_goal
     rclpy.init(args=args)
 
-    #set up our node
+    #get our goal - stored in the global main_goal variable
+    goal_getter = GoalSubscriber()
+    rclpy.spin_once(goal_getter) #only spin once because goal doesn't change
+
+    #set up our client node
     client = BugOne()
     
     diff = 10
-    goal = [-1.0, -1.0, 0.0]
     #first we will try to go straight to the point
     while(diff > .2) :#check what we've been setting this to
-        stp_result = client.send_goal_stp(goal)
+        stp_result = client.send_goal_stp(main_goal)
         current = stp_result.final
-        diff = euclidean_distance(current, goal)
+        diff = euclidean_distance(current, main_goal)
         if diff < .2 :
             break #probably a better way to do this
         #we aren't at the obstacle, so we should try to circumnavigate the obstacle starting from our current loc
-        cnvg_full_result = client.send_goal_cnvg([float(i) for i in current], goal)
+        cnvg_full_result = client.send_goal_cnvg([float(i) for i in current], main_goal)
         #we should probably check if we made it to the goal here and didn't reach the end - check how cnvg handles
         closest_point = cnvg_full_result.closest_point
         current = cnvg_full_result.current_point
-        diff = euclidean_distance(current, goal)
+        diff = euclidean_distance(current, main_goal)
         if diff < .2 :
             break #means we reached the point while circumnavigating
         #go around the obstacle until you reach the closest point
-        cnvg_partial_result = client.send_goal_cnvg([float(i) for i in closest_point], goal)
+        cnvg_partial_result = client.send_goal_cnvg([float(i) for i in closest_point], main_goal)
         #now we will loop again and try to go straight to that point, and if we hit another obstacle we will do this again
     print("Finished execution and reached point.")
 
