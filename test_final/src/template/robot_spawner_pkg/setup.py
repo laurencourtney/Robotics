@@ -16,7 +16,8 @@ setup(
         (os.path.join('share', package_name,'launch'), glob('launch/*.launch.py')),
         (os.path.join('share', package_name,'worlds/'), glob('./worlds/*')),
         (os.path.join('share', package_name,'models/Maze_ql_1/'), glob('./models/Maze_ql_1/*')),
-        (os.path.join('share', package_name,'models/basic_robot'), glob('./models/basic_robot/*'))
+        (os.path.join('share', package_name,'models/basic_robot'), glob('./models/basic_robot/*')),
+        (os.path.join('share', package_name,'models/globe'), glob('./models/globe/*'))
 
     ],
     install_requires=['setuptools'],
@@ -28,7 +29,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'spawn_demo = robot_spawner_pkg.spawn_demo:main'
+            'spawn_demo = robot_spawner_pkg.spawn_demo:main',
+            'spawn_scenario = robot_spawner_pkg.spawn_scenario:main'
+
         ],
     },
 )

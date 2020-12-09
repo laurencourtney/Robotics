@@ -45,8 +45,8 @@ def generate_launch_description():
     #spawn_entity = Node(package='gazebo_ros', node_executable='spawn_entity.py',
     #                    arguments=['-entity', 'demo', '-database', 'double_pendulum_with_base'],
     #                    output='screen')
-    spawn_entity = Node(package='robot_spawner_pkg', executable='spawn_demo',
-                        arguments=['BasicBot', 'en613', '1.0', '2.0', '0.1'],
+    spawn_entity = Node(package='robot_spawner_pkg', executable='spawn_scenario',
+                        arguments=['BasicBot', 'en613', '3'],
                         output='screen')
 
     return LaunchDescription([
