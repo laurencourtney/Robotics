@@ -13,8 +13,6 @@ from rclpy.executors import MultiThreadedExecutor
 from rclpy.action import ActionServer
 from action_package.action import Circumnavigate
 
-count = 0
-
 class CircumnavigateActionServer(Node):
     def __init__(self):
         super().__init__('CircumnavigateActionServer')
@@ -57,6 +55,8 @@ class CircumnavigateActionServer(Node):
 
     def execute_callback(self, goal_handle):
         global position
+        global count
+        count = 0
         self.get_logger().info("Executing Circumnavigate obstacle.. ")
         reached = 0
         closest = position

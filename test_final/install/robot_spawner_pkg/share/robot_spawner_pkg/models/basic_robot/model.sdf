@@ -144,7 +144,7 @@
 		  <namespace>/demo</namespace>
 		  <argument>~/out:=scan</argument>
 		</ros>
-		
+		<frame_name> chassis </frame_name>
 		<output_type>sensor_msgs/LaserScan</output_type>
 
 		</plugin>
@@ -173,6 +173,7 @@
       <joint type="fixed" name="laser_joint">
         <child>laser_link</child>
         <parent>chassis</parent>
+        <pose>0 0 0.03 0 0 0</pose>
       </joint>
       
 
@@ -203,7 +204,8 @@
         <publish_wheel_tf>true</publish_wheel_tf>
 
         <odometry_frame>odom</odometry_frame>
-        <robot_base_frame>chassis</robot_base_frame>
+	<odometrySource>ENCODER</odometrySource>
+	<robot_base_frame>chassis</robot_base_frame>
 
       </plugin>
 

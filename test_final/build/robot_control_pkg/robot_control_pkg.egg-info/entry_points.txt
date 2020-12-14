@@ -1,4 +1,5 @@
 [console_scripts]
-path_planner = robot_control_pkg.path_planner:main
-placeholder_estimator = robot_control_pkg.placeholder_estimator:main
+bug_client = robot_control_pkg.client:main
+circumnavigate_action_server = robot_control_pkg.circumnavigate_action_server:main
+straight_to_point_action_server = robot_control_pkg.straight_to_point_action_server:main
 

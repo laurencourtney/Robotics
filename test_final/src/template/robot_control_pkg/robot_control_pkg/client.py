@@ -103,15 +103,15 @@ def main(args=None) :
         stp_result = client.send_goal_stp(main_goal)
         current = stp_result.final
         diff = euclidean_distance(current, main_goal)
-        if diff < .2 :
+        if diff < .3 :
             break #probably a better way to do this
         #we aren't at the obstacle, so we should try to circumnavigate the obstacle starting from our current loc
         cnvg_full_result = client.send_goal_cnvg([float(i) for i in current], main_goal)
         #we should probably check if we made it to the goal here and didn't reach the end - check how cnvg handles
         closest_point = cnvg_full_result.closest_point
         current = cnvg_full_result.current_point
-        diff = euclidean_distance(current, main_goal)
-        if diff < .2 :
+        #diff = euclidean_distance(current, main_goal)
+        if diff < .3 :
             break #means we reached the point while circumnavigating
         #go around the obstacle until you reach the closest point
         cnvg_partial_result = client.send_goal_cnvg([float(i) for i in closest_point], main_goal)
