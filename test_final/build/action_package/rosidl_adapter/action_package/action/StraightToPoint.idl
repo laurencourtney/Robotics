@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_package/action/StraightToPoint.action
+// generated code does not contain a copyright notice
+
+
+module action_package {
+  module action {
+    typedef float float__3[3];
+    @verbatim (language="comment", text=
+      "Goal")
+    struct StraightToPoint_Goal {
+      float__3 dest;
+    };
+    typedef float float__3[3];
+    struct StraightToPoint_Result {
+      @verbatim (language="comment", text=
+        "Result")
+      float__3 final;
+    };
+    typedef float float__3[3];
+    struct StraightToPoint_Feedback {
+      @verbatim (language="comment", text=
+        "Feedback")
+      float__3 current_location;
+    };
+  };
+};

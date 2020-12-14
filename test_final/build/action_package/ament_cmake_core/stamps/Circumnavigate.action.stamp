@@ -1,0 +1,12 @@
+#goal
+float32[] ending_point #where to stop circumnavigating
+#on the first pass this ending point should match the starting point. 
+#on the second pass this ending point should be the closest point to the goal
+float32[] goal_point   #the ultimate destination of the robot
+---
+#result
+float32[] closest_point #the closest the robot ever got tot he goal point
+float32[] current_point #where the robot left off
+---
+#response
+float32[] current_loc #where the robot currently is

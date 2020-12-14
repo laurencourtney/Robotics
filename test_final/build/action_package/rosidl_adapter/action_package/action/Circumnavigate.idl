@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_package/action/Circumnavigate.action
+// generated code does not contain a copyright notice
+
+
+module action_package {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct Circumnavigate_Goal {
+      @verbatim (language="comment", text=
+        "where to stop circumnavigating")
+      sequence<float> ending_point;
+
+      @verbatim (language="comment", text=
+        "on the first pass this ending point should match the starting point." "\n"
+        "on the second pass this ending point should be the closest point to the goal" "\n"
+        "the ultimate destination of the robot")
+      sequence<float> goal_point;
+    };
+    struct Circumnavigate_Result {
+      @verbatim (language="comment", text=
+        "result" "\n"
+        "the closest the robot ever got tot he goal point")
+      sequence<float> closest_point;
+
+      @verbatim (language="comment", text=
+        "where the robot left off")
+      sequence<float> current_point;
+    };
+    struct Circumnavigate_Feedback {
+      @verbatim (language="comment", text=
+        "response" "\n"
+        "where the robot currently is")
+      sequence<float> current_loc;
+    };
+  };
+};

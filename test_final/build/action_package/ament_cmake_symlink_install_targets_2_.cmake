@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/EN613/test_final/build/action_package/rosidl_generator_py/action_package/action_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "action_package__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/action_package")
